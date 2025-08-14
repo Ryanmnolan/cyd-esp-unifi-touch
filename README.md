@@ -5,7 +5,7 @@
 
 > **Touchscreen UniFi Network Port Mapper for CYD ESP32** – Instantly see which switch port and patch panel a UniFi client is connected to, right from a handheld touchscreen.
 
-![CYD ESP32](docs/device-photo.jpg) <!-- Replace with actual photo path if available -->
+![CYD ESP32](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2024/03/ESP32-Cheap-Yellow-Display-CYD-Board-ESP32-2432S028R-front.jpg?w=750&quality=100&strip=all&ssl=1) <!-- Replace with actual photo path if available -->
 
 ---
 
