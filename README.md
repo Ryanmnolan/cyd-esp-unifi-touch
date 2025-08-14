@@ -1,6 +1,4 @@
 @ -1,2 +1,105 @@
-# cyd-esp-unifi-touch
- An Arduino-based project for the CYD ESP32 touchscreen that connects to the UniFi Controller API to display real-time client and switch information.
 # CYD ESP UniFi Touchscreen Network Mapper
 
 > **Touchscreen UniFi Network Port Mapper for CYD ESP32** – Instantly see which switch port and patch panel a UniFi client is connected to, right from a handheld touchscreen.
