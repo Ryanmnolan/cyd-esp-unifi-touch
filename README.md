@@ -27,7 +27,7 @@ Perfect for **IT closets, data centers, and field techs**, this device eliminate
 - Touch-friendly UI (CYD ESP32 + TFT_eSPI + XPT2046)  
 - Color-coded, easy-to-read interface  
 - Simple Wi-Fi and API setup  
-- Portable and standalone — no PC required
+- Standalone — no PC required
 
 ---
 
