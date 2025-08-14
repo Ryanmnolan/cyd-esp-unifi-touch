@@ -48,6 +48,43 @@ const char* siteId = "default";          // UniFi site ID
 
 ---
 
+## 🎨 Changing Theme Colors
+
+Theme colors are defined near the top of the `.ino` file:
+
+```cpp
+// ─── THEME COLORS ─────────────────────────────────────────────────────────────
+static constexpr uint16_t COLOR_BG = 0x1082;      // Background color
+static constexpr uint16_t COLOR_PANEL = 0x530D;   // Panel/Card background
+static constexpr uint16_t COLOR_ACCENT = 0x05FA;  // Accent color
+```
+
+To change them:
+1. Use a [color picker](https://rgbcolorpicker.com/565) to find the desired 16-bit **RGB565** color value.  
+2. Replace the hex values (`0xXXXX`) with your chosen colors.  
+3. Recompile and upload to your CYD ESP32.
+
+---
+
+## 🔑 Getting Your UniFi API Key & Site ID
+
+### **UniFi API Key**
+1. Log in to your UniFi Network Controller (Web UI).  
+2. Click your **profile icon → API Keys** (may be under Settings → System → Advanced).  
+3. Create a new API key with **read-only** access (for security).  
+4. Copy this key into the `apiKey` field in the `.ino` file.
+
+### **Site ID**
+1. From the UniFi Network Controller dashboard, select your site.  
+2. Look at the URL — it will look like:  
+   ```
+   https://<controller-ip>:8443/manage/site/abcd1234/dashboard
+   ```
+3. The `abcd1234` part is your **site ID** (in older controllers, it may be `default`).  
+4. Enter this into the `siteId` variable in the `.ino` file.
+
+---
+
 ## 🛠 Hardware Requirements
 
 - CYD ESP32 with built-in touchscreen  
