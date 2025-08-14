@@ -15,7 +15,7 @@ This Arduino-based project turns a **CYD ESP32 touchscreen** into a live UniFi n
 - **Patch panel mapping** – instantly locate cables  
 - **Switch information** – quick access for troubleshooting and network tracing  
 
-Perfect for **IT closets, data centers, and field techs**, this device eliminates the guesswork of tracing cables and speeds up network troubleshooting.
+Perfect for **IT closets and homelabs**, this device eliminates the guesswork of tracing cables and speeds up network troubleshooting.
 
 ---
 
