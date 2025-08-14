@@ -84,7 +84,7 @@ Install via Arduino IDE Library Manager:
 
 | Home Screen | Client Details | Patch Panel Mapping |
 |-------------|----------------|---------------------|
-| ![Home](docs/home.jfif) | ![Client](docs/client.jfif) | ![Patch](docs/patch.jfuf) |
+| ![Home](docs/home.jfif) | ![Client](docs/client.jfif) | ![Patch](docs/patch.jfif) |
 
 ---
 
